@@ -1,0 +1,35 @@
+<div class="center"></div>
+<div class="left-down"></div>
+<div class="right-down"></div>
+<style>
+  .left-down{
+    width: 100px;
+    height: 100px;
+    background: #F7EC7D;
+    border-radius:0px 0px 50px 50px;
+    position:absolute;
+    left:50px;
+    bottom:50px;
+  }
+   .right-down{
+    width: 100px;
+    height: 100px;
+    background: #F7EC7D;
+    border-radius:0px 0px 50px 50px;
+    position:absolute;
+    left:250px;
+    bottom:50px;
+  }
+    .center{
+    width: 100px;
+    height: 100px;
+    background: #F7EC7D;
+    border-radius:50px 50px 0px 0px;
+    position:absolute;
+    left:150px;
+    bottom:150px;
+  }
+  body{
+    background-color:#62306D
+  }
+</style>

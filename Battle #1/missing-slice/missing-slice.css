@@ -1,0 +1,35 @@
+<div class="box-down-left"></div>
+<div class="box-up-left"></div>
+<div class="box-up-right"></div>
+<style>
+  .box-down-left{
+    width: 100px;
+    height: 100px;
+    background: #F7F3D7;
+    position:absolute;
+    border-radius:0px 0px 0px 100px;
+    left:100px;
+    bottom:50px;
+  }
+   .box-up-left{
+    width: 100px;
+    height: 100px;
+    background: #51B5A9;
+    position:absolute;
+    border-radius:100px 0px 0px 0px;
+    left:100px;
+    bottom:150px;
+  }
+    .box-up-right{
+    width: 100px;
+    height: 100px;
+    background: #FADE8B;
+    position:absolute;
+    border-radius:0px 100px 0px 0px;
+    left:200px;
+    bottom:150px;
+  } 
+  body{
+    background:#E3516E;
+  }
+</style>

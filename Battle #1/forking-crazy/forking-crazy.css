@@ -1,0 +1,96 @@
+<div class="big-box-radius"></div>
+<div class="first-space"></div>
+<div class="second-space"></div>
+<div class="third-space"></div>
+<div class="first-line"></div>
+<div class="second-line"></div>
+<div class="third-line"></div>
+<div class="four-line"></div>
+<div class="maner"></div>
+<style>
+  .big-box-radius{
+    width: 140px;
+    height: 100px;
+    background: #060F55;
+    position:absolute ;
+	right:130px;
+    bottom:50px;
+    border-radius:0px 0px 70px 70px;
+  }
+  .first-space{
+    width: 20px;
+    height: 120px;
+    background: #6592CF;
+    position:absolute ;
+	right:230px;
+    bottom:140px;
+    border-radius:10px 10px 70px 70px;
+  }
+    .second-space{
+    width: 20px;
+    height: 120px;
+    background: #6592CF;
+    position:absolute ;
+	right:190px;
+    bottom:140px;
+    border-radius:10px 10px 70px 70px;
+  }
+    .third-space{
+    width: 20px;
+    height: 120px;
+    background: #6592CF;
+    position:absolute ;
+	right:150px;
+    bottom:140px;
+    border-radius:10px 10px 70px 70px;
+  }
+    .first-line{
+    width: 20px;
+    height: 110px;
+    background: #060F55;
+    position:absolute ;
+	right:250px;
+    bottom:140px;
+    border-radius:70px 70px 0px 0px;
+  }
+    .second-line{
+    width: 20px;
+    height: 110px;
+    background: #060F55;
+    position:absolute ;
+	right:210px;
+    bottom:140px;
+    border-radius:70px 70px 0px 0px;
+  }
+    .third-line{
+    width: 20px;
+    height: 110px;
+    background: #060F55;
+    position:absolute ;
+	right:170px;
+    bottom:140px;
+    border-radius:70px 70px 0px 0px;
+  }
+    .four-line{
+    width: 20px;
+    height: 110px;
+    background: #060F55;
+    position:absolute ;
+	right:130px;
+    bottom:140px;
+    border-radius:70px 70px 0px 0px;
+  }
+   
+    .maner{
+    width: 20px;
+    height: 110px;
+    background: #060F55;
+    position:absolute ;
+	right:190px;
+    bottom:0px;
+    border-radius:70px 70px 0px 0px;
+  }
+  body{
+    background:#6592CF;
+  }
+</style>

@@ -1,0 +1,83 @@
+<div class="base"></div>
+<div class="base-center"></div>
+<div class="principal-circle-left"></div>
+<div class="second-circle-left"></div>
+<div class="principal-circle-center"></div>
+<div class="second-circle-center"></div>
+<div class="principal-circle-right"></div>
+<div class="second-circle-right"></div>
+<style>
+  	.base{
+    width: 300px;
+    height: 100px;
+    background: #F7EC7D;
+    position:absolute;
+    left:50px;
+    bottom:0px;
+  }
+   .base-center{
+    width: 100px;
+    height: 100px;
+    background: #F7EC7D;
+    position:absolute;
+    left:150px;
+    bottom:100px;
+  }
+   .principal-circle-left{
+    width: 100px;
+    height: 100px;
+    background: #AA445F;
+    position:absolute;
+    left:50px;
+    bottom:50px;
+    border-radius:50px;
+  }
+    .second-circle-left{
+    width: 60px;
+    height: 60px;;
+    background: #E38F66;
+    position:absolute;
+    left:70px;
+    bottom:70px;
+    border-radius:50px;
+  }
+   .principal-circle-right{
+    width: 100px;
+    height: 100px;
+    background: #AA445F;
+    position:absolute;
+    right:50px;
+    bottom:50px;
+    border-radius:50px;
+  }
+    .second-circle-right{
+    width: 60px;
+    height: 60px;;
+    background: #E38F66;
+    position:absolute;
+    right:70px;
+    bottom:70px;
+    border-radius:50px;
+  }
+   .principal-circle-center{
+    width: 100px;
+    height: 100px;
+    background: #E38F66;
+    position:absolute;
+    right:150px;
+    bottom:150px;
+    border-radius:50px;
+  }
+    .second-circle-center{
+    width: 60px;
+    height: 60px;;
+    background: #AA445F;
+    position:absolute;
+    right:170px;
+    bottom:170px;
+    border-radius:50px;
+  }
+  body{
+    background:#62306D;
+  }
+</style>

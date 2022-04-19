@@ -1,0 +1,76 @@
+<div class="principal-circle"></div><div class="second-circle"></div><div class="small-circle-center"></div><div class="dreptunghi-stanga-deschis"></div><div class="dreptunghi-stanga-inchis"></div><div class="dreptunghi-dreapta-deschis"></div><div class="dreptunghi-dreapta-inchis"></div><style>.principal-circle {
+    width: 140px;
+    height: 140px;
+    background: #ECA03D;
+    border-radius: 50%;
+    position: absolute;
+    left: 130px;
+    top: 80px;
+}
+
+.second-circle {
+    width: 100px;
+    height: 100px;
+    background: #191210;
+    border-radius: 50%;
+    position: absolute;
+    left: 150px;
+    top: 100px;
+}
+
+.small-circle-center {
+    width: 50px;
+    height: 50px;
+    background: #84271C;
+    border-radius: 50%;
+    position: absolute;
+    right: 175px;
+    top: 125px;
+}
+
+.dreptunghi-stanga-deschis {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    background: #ECA03D;
+    border-radius: 0px 0px 50px 50px;
+    left: 50px;
+    bottom: 100px;
+}
+
+.dreptunghi-stanga-inchis {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background: #191210;
+    border-radius: 50%;
+    left: 70px;
+    bottom: 120px;
+}
+
+.dreptunghi-dreapta-deschis {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    background: #ECA03D;
+    border-radius: 0px 0px 50px 50px;
+    right: 50px;
+    bottom: 150px;
+    transform: rotate(180deg);
+}
+
+.dreptunghi-dreapta-inchis {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background: #191210;
+    border-radius: 50%;
+    right: 70px;
+    bottom: 120px;
+}
+
+body {
+    background: #191210;
+}
+
+</style>

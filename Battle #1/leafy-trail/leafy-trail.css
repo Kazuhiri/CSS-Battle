@@ -1,0 +1,35 @@
+<div class="left"></div>
+<div class="center"></div>
+<div class="right"></div>
+<style>
+  	.left{
+    width: 135px;
+    height: 150px;
+    background: #1A4341;
+    border-radius:100px 0px 0px 0px;
+    position:absolute;
+    left:75px;
+    top:75px
+  }
+   	.center{
+    width: 140px;
+    height: 150px;
+    background: #998235;
+    border-radius:100px 0px 50px 0px;
+    position:absolute;
+    left:125px;
+    top:75px
+  }
+    .right{
+    width: 150px;
+    height: 150px;
+    background: #F3AC3C;
+    border-radius:100px 0px 100px 0px;
+    position:absolute;
+    left:175px;
+    top:75px
+  }
+  body{
+    background:#0B2429;
+  }
+</style>

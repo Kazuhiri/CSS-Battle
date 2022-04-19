@@ -1,0 +1,55 @@
+<div id="circle-left"></div>
+<div id="circle-center"></div>
+<div id="circle-right"></div>
+<div id="circle-left-small"></div>
+<style>
+  body{
+    background:#F5D6B4;
+  }
+  #circle-left{
+    width: 60px;
+    height: 40px;
+    border:20px solid#D86F45;
+    transform:rotate(180deg);
+    border-radius:2000px 2000px 350px 100px;
+    border-bottom:0;
+    position:absolute;
+    left:70px;
+    top:140px;
+    
+  }
+
+  #circle-center{
+    width: 60px;
+    height: 40px;
+    border:20px solid#D86F45;
+    border-radius:2000px 2000px 20px 0px;
+    border-bottom:0;
+    position:absolute;
+    left:150px;
+    top:100px;
+  }
+  /*piece of shit,don't work */
+  #circle-left-small{
+    width: 10px;
+    height: 10px;
+   background:#D86F45;
+    transform:rotate(180deg);
+    border-radius:50%;
+    border-bottom:0;
+    left:80px;
+    top:141px;
+    position:absolute;
+  }
+  #circle-right{
+    width: 60px;
+    height: 40px;
+    border:20px solid#D86F45;
+    transform:rotate(180deg);
+    border-radius:2000px 2000px 0px 350px;
+    border-bottom:0;
+    position:absolute;
+    left:230px;
+    top:140px;
+  }
+</style>

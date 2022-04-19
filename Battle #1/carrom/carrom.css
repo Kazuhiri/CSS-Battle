@@ -1,0 +1,41 @@
+<div class = "dreapta"></div> 
+<div class = "stanga"></div>
+<div class = "dreaptaJos"></div>
+<div class = "stangaJos"></div>
+<style>
+  body{
+    background-color:#62374e;
+  }
+  .dreapta {
+    position:relative;
+    left:42px;
+    top:42px;
+    width: 50px;
+    height: 50px;
+    background: #fdc57b;
+  }
+    .dreaptaJos {
+    position:relative;
+    left:42px;
+    top:92px;
+    width: 50px;
+    height: 50px;
+    background: #fdc57b;
+  }
+      .stanga {
+    position:relative;
+    left:292px;
+    top:-8px;
+    width: 50px;
+    height: 50px;
+    background: #fdc57b;
+  }
+    .stangaJos {
+    position:relative;
+    left:292px;
+    top:42px;
+    width: 50px;
+    height: 50px;
+    background: #fdc57b;
+  }
+</style>
