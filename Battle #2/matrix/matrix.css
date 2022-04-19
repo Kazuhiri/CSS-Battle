@@ -1,0 +1,19 @@
+<div></div><style>div {
+    width: 80px;
+    height: 80px;
+    background: #F09462;
+    border-top-left-radius: 100px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    box-shadow:
+        100px 0px #F5D6B4, 200px 0px #F09462, 300px 0px #F5D6B4,
+        0px 100px #F5D6B4, 100px 100px #F09462, 200px 100px #F5D6B4, 300px 100px #F09462,
+        0px 200px #F09462, 100px 200px #F5D6B4, 200px 200px #F09462, 300px 200px #F5D6B4;
+}
+
+body {
+    background: #5C434C;
+}
+
+</style>
