@@ -1,0 +1,82 @@
+<div id="big-box"></div><div id="small-box"></div><div id="circle-left-top-big-box"></div><div id="circle-right-top-intersection"></div><div id="circle-right-top-small-box"></div><div id="circle-left-bottom-big-box"></div><div id="circle-right-bottom-intersection"></div><div id="circle-right-bottom-small-box"></div><style>body {
+    background: #62306D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#big-box {
+    width: 200px;
+    height: 100px;
+    background: #F7EC7D;
+    position: absolute;
+}
+
+#small-box {
+    width: 60px;
+    height: 100px;
+    background: #E38F66;
+    position: absolute;
+    right: 100px;
+}
+
+#circle-left-top-big-box,
+#circle-right-top-intersection,
+#circle-right-top-small-box,
+#circle-left-bottom-big-box,
+#circle-right-bottom-intersection,
+#circle-right-bottom-small-box {
+    border-radius: 50%;
+    position: absolute;
+    background: #62306D;
+}
+
+#circle-left-top-big-box {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 80px;
+    top: 80px;
+}
+
+#circle-left-bottom-big-box {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 80px;
+    bottom: 80px;
+}
+
+#circle-right-bottom-small-box {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 80px;
+    bottom: 80px;
+}
+
+#circle-right-top-small-box {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 80px;
+    top: 80px;
+}
+
+#circle-right-top-intersection {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 150px;
+    top: 90px;
+}
+
+#circle-right-bottom-intersection {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 150px;
+    bottom: 90px;
+}
+
+</style>
