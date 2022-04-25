@@ -1,0 +1,63 @@
+<div class="circle-top"></div>
+<div class="circle-left"></div>
+<div class="circle-right"></div>
+<div class="big-box">
+<div class="circle-bottom"></div>
+</div>
+<style>
+  body{
+    background:#09042A;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  	.big-box{
+    width: 200px;
+    height: 60px;
+    background: #E78481;
+    border-radius:50px ;
+    
+  }
+  .circle-left{
+    width:60px;
+    height:60px;
+    background:#09042A;
+    border-radius:50%;
+   	position:absolute;
+    left:110px;
+    /* shit,first try border:7px solid transparent;*/
+    box-shadow:0px 0px 0px 10px #E78481;
+  }
+  .circle-right{
+    width:60px;
+    height:60px;
+    background:#09042A;
+    border-radius:50%;
+   	position:absolute;
+    right:110px;
+    /* shit,first try border:7px solid transparent;*/
+    box-shadow:0px 0px 0px 10px #E78481;
+  }
+  .circle-bottom{
+    width:60px;
+    height:60px;
+    position:absolute;
+    bottom:58px;
+    background:#F5BB9C;
+    border-radius:50%;
+    border:10px solid #09042A;
+  	left:160px;
+    box-shadow:0px 0px 0px 1px #09042A;
+  }
+   .circle-top{
+    width:60px;
+    height:60px;
+    position:absolute;
+    top:57px;
+    background:#F5BB9C;
+    border-radius:50%;
+    border:10px solid #09042A;
+  	left:160px;
+    box-shadow:0px 0px 0px 1px #09042A;
+  }
+</style>
