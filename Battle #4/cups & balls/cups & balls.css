@@ -1,0 +1,38 @@
+<div id="circle"></div>
+<div id="box-top"></div>
+<div id="box-bottom"></div>
+<style>
+  body{
+    background:#1A4341;
+  }
+  	#circle{
+    width: 50px;
+    height: 50px;
+    background: #998235;
+    border-radius:50%;
+    position:absolute;
+    left:70px;
+    top:90px;
+    box-shadow:70px 70px #998235,140px 70px #F3AC3C,210px 0px #F3AC3C;
+  }
+  	#box-top{
+    width: 50px;
+    height: 50px;
+    background: #F3AC3C;
+    border-radius:100px 100px 0px 0px;
+    position:absolute;
+    left:140px;
+    top:90px;
+    box-shadow:70px 0px #998235;
+  }
+   	#box-bottom{
+    width: 50px;
+    height: 50px;
+    background: #F3AC3C;
+    border-radius: 0px 0px 100px 100px;
+    position:absolute;
+    left:70px;
+    bottom:90px;
+    box-shadow:210px 0px #998235;
+  }
+</style>
