@@ -1,0 +1,33 @@
+<div id ="bottom"> </div>
+<div id ="middle"> </div>
+<div id ="top"> </div>
+<style>
+  body{
+    background:#007065
+  }
+  /*I know,it's not 100% but at least I tried */
+  #bottom{
+    border-left:125px solid transparent;
+    border-right:115px solid transparent;
+    border-bottom:110px solid #00A79D;/*top->varful in jos,bottom->varful in sus */
+    position:absolute;
+    left:80px;
+    top:140px;
+  }
+  #middle{
+    border-left:120px solid transparent;
+    border-right:120px solid transparent;
+    border-bottom:100px solid #F5C181;/*top->varful in jos,bottom->varful in sus */
+    position:absolute;
+    left:80px;
+    top:100px;
+  }
+    #top{
+    border-left:120px solid transparent;
+    border-right:120px solid transparent;
+    border-bottom:100px solid #FFEECF;/*top->varful in jos,bottom->varful in sus */
+    position:absolute;
+    left:80px;
+    top:50px;
+  }
+</style>
