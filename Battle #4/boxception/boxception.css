@@ -1,0 +1,32 @@
+<div id="big-box"></div>
+<div id="second-box"></div>
+<div id="small-box-yellow"></div>
+<style>
+  body{
+    background:#F3AC3C;
+  }
+  #big-box{
+    width: 200px;
+    height: 200px;
+    background: #1A4341;
+    position:absolute;
+    right:100px;
+    top:50px;
+  }
+   #second-box{
+    width: 100px;
+    height: 100px;
+    background: #998235;
+    position:absolute;
+    left:100px;
+    bottom:50px;
+  }
+    #small-box-yellow{
+    width: 50px;
+    height: 50px;
+    background: #F3AC3C;
+    position:absolute;
+    left:150px;
+    bottom:50px;
+  }
+</style>
