@@ -1,0 +1,54 @@
+<div id="box"></div><div id="border-bottom-left"></div><div id="border-top-left"></div><div id="border-bottom-right"></div><div id="border-top-right"></div><style>body {
+    background: #F3AC3C;
+}
+
+#box {
+    width: 185px;
+    height: 190px;
+    background: #1A4341;
+    position: absolute;
+    left: 110px;
+    top: 56px;
+}
+
+#border-bottom-left {
+    width: 100px;
+    height: 100px;
+    background: #F3AC3C;
+    border-radius: 0px 100px 0px 0px;
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+
+#border-top-left {
+    width: 100px;
+    height: 100px;
+    background: #F3AC3C;
+    border-radius: 0px 0px 100px 0px;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+
+#border-top-right {
+    width: 100px;
+    height: 100px;
+    background: #F3AC3C;
+    border-radius: 0px 0px 0px 100px;
+    position: absolute;
+    right: 100px;
+    top: 50px;
+}
+
+#border-bottom-right {
+    width: 100px;
+    height: 100px;
+    background: #F3AC3C;
+    border-radius: 100px 0px 0px 0px;
+    position: absolute;
+    right: 100px;
+    top: 150px;
+}
+
+</style>
