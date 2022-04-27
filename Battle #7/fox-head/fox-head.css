@@ -1,0 +1,57 @@
+<div id="square-bottom"></div>
+<div id="square-left"></div>
+<div id="square-right"></div>
+<div id="circle-bottom-left"></div>
+<div id="eyes"></div>
+
+<style>
+  body{
+    background:#293462;
+  }
+  #square-left{
+    width: 50px;
+    height: 100px;
+    background: #FE5F55;
+    border-radius:0px 40px 0px 0px;
+    position:absolute;
+    left:150px;
+    top:80px;
+  }
+  #square-right{
+    width: 50px;
+    height: 100px;
+    background: #FE5F55;
+    border-radius:40px 0px 0px 0px;
+    position:absolute;
+    right:150px;
+    top:80px;
+  }
+  #square-bottom{
+    width: 100px;
+    height: 100px;
+    background: #FE5F55;
+    position:absolute;
+    right:150px;
+    bottom:80px;
+  }
+  #circle-bottom-left{
+    width:80px;
+    height:80px;
+    background:#293462;
+    border-radius:100%;
+    position:absolute;
+    top:180px;
+    left:120px;
+    box-shadow:80px 0px #293462;
+  }
+  #eyes{
+    width:30px;
+    height:30px;
+    background:#293462;
+    border-radius:50%;
+    position:absolute;
+    left:165px;
+    top:140px;
+    box-shadow:40px 0px #293462;
+  }
+</style>
