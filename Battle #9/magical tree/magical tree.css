@@ -1,0 +1,44 @@
+<div id="small-square-vertical"></div>
+<div id="small-square-horizontally"></div>
+<div id="big-square-horizontally"></div>
+<div id="big-square-vertical"></div>
+<body bgcolor=#1A4341>
+<style>
+  #big-square-vertical{
+    width: 30;
+    height: 210;
+    background: #F3AC3C;
+    margin:0;
+    top:0;
+    position:absolute;
+    left:65;
+    box-shadow: 120px 0px #F3AC3C,240px 0px #F3AC3C,120px 120px #F3AC3C;
+  }
+  #big-square-horizontally{
+    width: 270;
+    height: 30;
+    background: #998235;
+    position:absolute;
+    left:65;
+    bottom:30;
+    box-shadow:0px -60px #F3AC3C;
+  }
+  #small-square-horizontally{
+    width: 150;
+    height: 30;
+    background: #998235;
+    position:absolute;
+    left:125;
+    top:120;
+  }
+  #small-square-vertical{
+    width: 30;
+    height: 150;
+    background: #998235;
+    position:absolute;
+    left:125;
+    top:0;
+    box-shadow:120px 0px #998235
+  }
+  }
+</style>
