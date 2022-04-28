@@ -1,0 +1,103 @@
+<div id="bottle"></div>
+<div id="neck"></div>
+<div id="tube"></div>
+<div id="hander"></div>
+<div id="tap"></div>
+<div id="drops"></div>
+<div id="alcohol-drops"></div>
+<div id="alcohol-in-bottle-bottom"></div>
+<div id="alcohol-in-bottle-top-left"></div>
+<div id="alcohol-in-bottle-top-right"></div>
+<style>
+  body{
+    display:flex;
+    justify-content:center;
+    background:#1A4341;
+  }
+  #bottle{
+    width: 100px;
+    height: 100px;
+    background: #F3AC3C;
+    border-radius:20%;
+    position:absolute;
+    top:110px;
+  }
+  #alcohol-in-bottle-top-left{
+    content:'';
+    width:50px;
+    height:50px;
+    background:#998235;
+    border-radius:25px 25px 0px 0px;
+    position:absolute;
+    top:140px;
+    left:150px;
+  }
+  #alcohol-in-bottle-bottom{
+    width:100px;
+    height:80px;
+    background:#998235;
+    position:absolute;
+    top:170px;
+    border-radius:0px 0px 20px 20px;
+  }
+    #alcohol-in-bottle-top-right{
+    content:'';
+    width:50px;
+    height:50px;
+    background:#F3AC3C;
+    border-radius:0px 0px 25px 25px;
+    position:absolute;
+    top:140px;
+    right:150px;
+  }
+    #neck{
+    content:'';
+    width:50px;
+    height:30px;
+    background:#F3AC3C;
+    border-radius:10px 10px 0px 0px;
+    position:absolute;
+    top:90px;
+    right:175px;
+  }
+    #hander{
+    content:'';
+    width:20px;
+    height:20px;
+    background:#F3AC3C;
+    border-radius:0px 0px 0px 0px;
+    position:absolute;
+    top:70px;
+    right:190px;
+  }
+    #tube{
+    content:'';
+    width:150px;
+    height:20px;
+    background:#F3AC3C;
+    border-radius:10px 10px 0px 10px;
+    position:absolute;
+    top:50px;
+    left:150px;
+  }
+   #tap{
+    content:'';
+    width:20px;
+    height:30px;
+    background:#F3AC3C;
+    border-radius:10px 10px 10px 10px;
+    position:absolute;
+    top:60px;
+    left:280px;
+  }
+  #drops{
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background:#998235;
+    position:absolute;
+    right:100px;
+    top:100px;
+    box-shadow:0px 30px #998235;
+  }
+</style>
