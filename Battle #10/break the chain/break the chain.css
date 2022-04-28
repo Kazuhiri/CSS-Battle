@@ -1,0 +1,45 @@
+<div id="small-yellow-circle"></div>
+<div id="yellow-circle"></div>
+<div id="square"></div>
+<div id="blue-circle"></div>
+<body bgcolor=#6592CF>
+<style>
+  #square{
+    width: 10px;
+    height: 43px;
+    background: #243D83;
+    position:absolute;
+    left:45px;
+    top:147px;
+    box-shadow:45px 0px #243D83,90px 0px #243D83,165px 0px #243D83,210px 0px #243D83,255px 0px #243D83,300px 0px #243D83;
+  }
+  #blue-circle{
+    width: 20px;
+    height: 20px;
+    background: #243D83;
+    position:absolute;
+    left:40px;
+    top:130px;
+    border-radius:50%;
+    box-shadow:45px 0px #243D83,90px 0px #243D83,165px 0px #243D83,210px 0px #243D83,255px 0px #243D83,300px 0px #243D83;
+  }
+  #small-yellow-circle{
+    width:40px;
+    height:40px;
+    background:#EEB850;
+    border-radius:50%;
+    position:absolute;
+    top:120px;
+    left:30px;
+    box-shadow:90px 0px #EEB850;
+  }
+  #yellow-circle{
+    width:60px;
+    height:60px;
+    background:#EEB850;
+    border-radius:50%;
+    position:absolute;
+    top:100px;
+    left:65px;
+  }
+</style>
