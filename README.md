@@ -1,5 +1,5 @@
 # CSS-Battle
 https://cssbattle.dev 
 
-Just fun!
+Just for fun!
 :P
