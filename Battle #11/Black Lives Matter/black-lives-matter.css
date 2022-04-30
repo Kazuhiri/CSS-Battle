@@ -1,0 +1,81 @@
+<div id="finger-a"></div>
+<div id="finger-b"></div>
+<div id="finger-c"></div>
+<div id="finger-d"></div>
+<div id="palm"></div>
+<div id="forearm"></div>
+<div id="finger-skew"></div>
+<style>
+  body{
+   	display:flex;
+    justify-content:center;
+    background:#F9E492;
+  }
+  #palm{
+    width: 100px;
+    height: 40px;
+    background: #191919;
+    position:absolute;
+    top:138px;
+    border-radius:0px 0px 11px 11px;
+  }
+  #forearm{
+    width: 50px;
+    height: 48px;
+    background: #191919;
+    position:absolute;
+    top:175px;
+    border-radius:0px 0px 11px 11px;
+  }
+  #finger-skew{
+    width: 20px;
+    height: 65px;
+    background: #191919;
+    position:absolute;
+    top:102px;
+    left:155px;
+    border-radius:25px;
+    transform:rotate(60deg);
+    border:5px solid #F9E492;
+  }
+  #finger-a{
+    width: 20px;
+    height: 45px;
+    background: #191919;
+    position:absolute;
+    top:83px;
+    left:150px;
+    border-radius:25px;
+    border:5px solid #F9E492;
+  }
+   #finger-b{
+    width: 20px;
+    height: 50px;
+    background: #191919;
+    position:absolute;
+    top:73px;
+    left:175px;
+    border-radius:25px;
+    border:5px solid #F9E492;
+  }
+   #finger-c{
+    width: 20px;
+    height: 45px;
+    background: #191919;
+    position:absolute;
+    top:83px;
+    left:200px;
+    border-radius:25px;
+    border:5px solid #F9E492;
+  }
+   #finger-d{
+    width: 20px;
+    height: 35px;
+    background: #191919;
+    position:absolute;
+    top:93px;
+    left:225px;
+    border-radius:25px;
+    border:5px solid #F9E492;
+  }
+</style>

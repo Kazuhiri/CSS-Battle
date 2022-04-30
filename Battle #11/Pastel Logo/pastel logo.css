@@ -1,0 +1,34 @@
+<div id="square"></div>
+<div class="circle">
+<div id="square-overflow"></div>
+<body bgcolor=#19191A>
+</div>
+<style>
+  .circle{
+    width: 150px;
+    height: 150px;
+    background: #4F77FF;
+    border-radius:50%;
+    position:absolute;
+    left:125px;
+    top:50px;
+    overflow:hidden;
+  }
+  #square-overflow{
+    width: 75px;
+    height: 125px;
+    background: #9AD5FF;
+    position:absolute;
+    left:0px;
+    top:75px;z
+  }
+  #square{
+    width: 75px;
+    height: 115px;
+    background:#F9E492;
+    position:absolute;
+    left:125px;
+    top:135px;
+    
+  }
+</style>
